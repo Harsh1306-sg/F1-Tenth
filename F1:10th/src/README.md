@@ -2,11 +2,11 @@
 
 **Wall-following algorithm for Autonomous Navigation**
 
-this algorithm enables a robot or vehicle to maintain a constant distance from a wall using range sensor data (e.g., lidar, sonar, ir). it uses control logic—typically a pid controller—to continuously correct the heading based on the error between the desired and measured distances from the wall.
+This algorithm enables a robot or vehicle to maintain a constant distance from a wall using range sensor data (e.g., lidar, sonar, ir). it uses control logic—typically a pid controller—to continuously correct the heading based on the error between the desired and measured distances from the wall.
 
 ---
 
-### how it works
+### How it Works
 
 1. **sensor reading:**  
    measure the current distance to the wall using side-facing sensors.  
@@ -14,13 +14,13 @@ this algorithm enables a robot or vehicle to maintain a constant distance from a
    - $$\ d_{\text{desired}} $$ = desired distance to wall  
    - $$\ d_{\text{actual}} $$ = current distance to wall  
 
-2. **calculate error:**  
+2. **Calculate Error:**  
 
 $$
 e(t) = d_{\text{desired}} - d_{\text{actual}}
 $$
 
-3. **pid control law:**  
+3. **PID Control Law:**  
    the control output \( u(t) \), used to adjust steering, is computed as:  
 
 $$
@@ -31,12 +31,12 @@ $$
    where:  
    - $$\( K_p \), \( K_i \), \( K_d \)$$ are the proportional, integral, and derivative gains respectively
 
-5. **apply control:**  
+5. **Apply Control:**  
    adjust the vehicle’s heading angle or steering rate to minimize $$\ e(t) \$$
 
 ---
 
-this algorithm is effective in:
-- exploring unknown environments  
-- navigating narrow corridors  
-- following curved or straight boundaries without collision
+This algorithm is effective in:
+- Exploring unknown environments  
+- Navigating narrow corridors  
+- Following curved or straight boundaries without collision
