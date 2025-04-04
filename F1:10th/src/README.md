@@ -1,6 +1,4 @@
-# Various algorithms for autonomous navigation.
-
-## 1. Wall Follow
+Wall Follow
 
 **Wall-following algorithm for Autonomous Navigation**
 
