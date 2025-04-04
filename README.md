@@ -1,15 +1,3 @@
-# 404s & Heartbreak F1 Tenth
-
-# Team Details
-1. Shanthakumar Karan
-2. Harsh Vivekanand Pandey 
-
-## Race Map
-
-**BrandsHatch**
-
-<img src="https://github.com/user-attachments/assets/0d2c4483-5ae6-4045-856b-03b93679f573" alt="BrandsHatch Map" width="500" height="500">
-
 ## Algorithm
 
 We have implemented a wall-following algorithm using ROS2 for the BrandsHatch map. In the wall follow algorithm the key task is to steer the vehicle to maintain a fixed distance from the wall while navigating curves. The control is maintained and corrected using the **PID (Proportional-Integral-Derivative)** logic.
