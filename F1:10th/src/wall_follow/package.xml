@@ -4,7 +4,7 @@
   <name>wall_follow</name>
   <version>0.0.1</version>
   <description>Wall Follow Algorithm for BrandsHatch Map</description>
-  <maintainer email="karans.kns@gmail.com">404s & Heartbreak</maintainer>
+  <maintainer email="harshpandey1306@gmail.com">
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
