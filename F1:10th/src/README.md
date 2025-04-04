@@ -15,7 +15,7 @@ this algorithm enables a robot or vehicle to maintain a constant distance from a
 1. **sensor reading:**  
    measure the current distance to the wall using side-facing sensors.  
    let:  
-   - \( d_{\text{desired}} \) = desired distance to wall  
+   - $$ \( d_{\text{desired}} \) = desired distance to wall $$
    - \( d_{\text{actual}} \) = current distance to wall  
 
 2. **calculate error:**  
