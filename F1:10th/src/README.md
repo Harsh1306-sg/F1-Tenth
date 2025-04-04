@@ -31,8 +31,8 @@ $$
    where:  
    - $$\( K_p \), \( K_i \), \( K_d \)$$ are the proportional, integral, and derivative gains respectively
 
-5. **Apply Control:**  
-   adjust the vehicle’s heading angle or steering rate to minimize $$\ e(t) \$$
+5. **Apply Control:**
+- adjust the vehicle’s heading angle or steering rate to minimize $$\ e(t) \$$
 
 ---
 
