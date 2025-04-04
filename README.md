@@ -1,6 +1,6 @@
 ## Algorithm
 
-We have implemented a wall-following algorithm using ROS2 for the BrandsHatch map. In the wall follow algorithm the key task is to steer the vehicle to maintain a fixed distance from the wall while navigating curves. The control is maintained and corrected using the **PID (Proportional-Integral-Derivative)** logic.
+We have implemented a wall-following algorithm using ROS2. In the wall follow algorithm the key task is to steer the vehicle to maintain a fixed distance from the wall while navigating curves. The control is maintained and corrected using the **PID (Proportional-Integral-Derivative)** logic.
 
 **The code layout is in form of:**
 
