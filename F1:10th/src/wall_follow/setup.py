@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='404s & Heartbreak',
-    maintainer_email='karans.kns@gmail.com',
-    description='Wall Follow Algorithm for BrandsHatch Map',
+    maintainer='F1-Tenth',
+    maintainer_email='harshpandey1306@gmail.com',
+    description='Wall Follow Algorithm',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
