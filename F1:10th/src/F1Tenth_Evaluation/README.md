@@ -1,5 +1,5 @@
-# F1Tenth_Hackathon_Evaluation
-This is a ROS2 package that contains the evaluation scripts needed for the F1Tenth Hackathon
+# F1Tenth_Evaluation
+This is a ROS2 package that contains the evaluation scripts needed for the F1Tenth 
 
 ## Notes
 - **For evaluating your algorithms, please remember to replace `wall_follower` in the launch file with the required algorithm.**
