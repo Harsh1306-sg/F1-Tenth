@@ -2,11 +2,7 @@
 
 ## 1. Wall Follow
 
-sure, here's a detailed version of the wall-following algorithm description with latex-style equations you can paste directly into a markdown (`README.md`) on github:
-
----
-
-**wall-following algorithm for autonomous navigation**
+**Wall-following algorithm for Autonomous Navigation**
 
 this algorithm enables a robot or vehicle to maintain a constant distance from a wall using range sensor data (e.g., lidar, sonar, ir). it uses control logic—typically a pid controller—to continuously correct the heading based on the error between the desired and measured distances from the wall.
 
@@ -15,7 +11,7 @@ this algorithm enables a robot or vehicle to maintain a constant distance from a
 1. **sensor reading:**  
    measure the current distance to the wall using side-facing sensors.  
    let:  
-   - $$ \( d_{\text{desired}} \) = desired distance to wall $$
+   - $$\( d_{\text{desired}} \$$) = desired distance to wall  
    - \( d_{\text{actual}} \) = current distance to wall  
 
 2. **calculate error:**  
