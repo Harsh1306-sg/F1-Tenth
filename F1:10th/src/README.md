@@ -15,9 +15,9 @@ this algorithm enables a robot or vehicle to maintain a constant distance from a
    - $$\ d_{\text{actual}} $$ = current distance to wall  
 
 2. **calculate error:**  
-$$\[
+$$\
 e(t) = d_{\text{desired}} - d_{\text{actual}}
-\]$$
+\$$
 
 3. **pid control law:**  
    the control output \( u(t) \), used to adjust steering, is computed as:  
