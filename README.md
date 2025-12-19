@@ -49,3 +49,7 @@ v_{\text{turn}} & \text{if } |\text{steering angle}| > \text{turn threshold} \\
 v_{\text{default}} & \text{otherwise}
 \end{cases}
 \$$
+
+
+![Alt text for accessibility](public/example.gif)
+
